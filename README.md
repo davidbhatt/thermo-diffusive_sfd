@@ -1,5 +1,5 @@
 # thermo-diffusive_sfd
-This code is extension of previous thermo-diffusive code. In this the periodic  oscillations of flame arising due to diffussive thermal imbalance or Lewis number effects can be damped to obtain 
+This code is extension of previous compact finite difference based thermo-diffusive code. In this the periodic  oscillations of flame arising due to diffussive thermal imbalance or Lewis number effects can be damped to obtain 
 a good approximation of steady-state or stationary solution. In this way a fast solution to steady state can be obtained. The algorithm used is the Selective Frequency Damping algorithm described in the following paper:
 Bastien E. Jordi, Colin J. Cotter, Spencer J. Sherwin; An adaptive selective frequency damping method. Physics of Fluids 1 September 2015; 27 (9): 094104. https://doi.org/10.1063/1.4932107
 This approximation can be refined using the Newton solver.
