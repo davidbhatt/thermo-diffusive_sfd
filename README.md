@@ -1,9 +1,8 @@
 # thermo-diffusive_sfd
-This code is extension of previous thermo-diffusive code. In this the oscillations of flame arising due to diffussive thermal imbalance or Lewsi number effects can be damped to obtain 
-a good approximation of steady-state or stationary solution. In this way a fast solution to steady state can be obtained.
-This apprimation can be efined using the Newton solver.
-  !More details can be found at following publication:                                                                  
-  David S. Bhatt, Daniel Rodríguez, Linear analysis of thermo-diffusive instability from edge flames to fully premixed laminar flames with a wide range of Damköhler number and Lewis number greater than unity. (submitted to Combustion and Flame)
+This code is extension of previous thermo-diffusive code. In this the periodic  oscillations of flame arising due to diffussive thermal imbalance or Lewis number effects can be damped to obtain 
+a good approximation of steady-state or stationary solution. In this way a fast solution to steady state can be obtained. The algorithm used is the Selective Frequency Damping algorithm described in the following paper:
+Bastien E. Jordi, Colin J. Cotter, Spencer J. Sherwin; An adaptive selective frequency damping method. Physics of Fluids 1 September 2015; 27 (9): 094104. https://doi.org/10.1063/1.4932107
+This approximation can be refined using the Newton solver.
 
 In order to run, A list of input paramters are required and is described in inputs2d_info.txt
 Also a sample input file inputs2d.txt is also included.
